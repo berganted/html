@@ -44,6 +44,17 @@
     height: 500px;
    
 }
+.mem_leftmenu_1{
+    
+    border-collapse: collapse;
+    float: left;
+    position: relative;
+    width: 150px;
+    
+    
+    height: 540px;
+   
+}
 .mem_content{
     width: 1300px;
     margin: 20px auto;
@@ -317,7 +328,7 @@ fieldset{
  .point_table{
     margin: auto;
     padding: 20px;
-    width: 100%;
+    width: 90%;
     text-align: center;
 }
 .point_total{
