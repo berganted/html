@@ -8,8 +8,9 @@
     padding: 40px;
 }
 .wrap{
-    width: 1500px;
+    width: 1490px;
     margin: 0px auto;
+   
        
     
 }
@@ -23,7 +24,7 @@
     text-align: left;
     margin:  5px;
     float: left;
-    width: 100%;
+    width: 80%;
 }
 .con2{
     width: 90%;
@@ -48,15 +49,13 @@
     
     border-collapse: collapse;
     float: left;
-    position: relative;
+    
     width: 150px;
-    
-    
     height: 540px;
    
 }
 .mem_content{
-    width: 1300px;
+    width: 1200px;
     margin: 20px auto;
     float: left;
     height: 100%;
@@ -296,6 +295,7 @@ fieldset{
 .up_submitbtn{
     width: 400px;
     padding: 10px;
+    margin-left: 100px;
     
 }
 /* mypage */
@@ -314,13 +314,16 @@ fieldset{
      margin: 30px;
  }
 
- .mypage_ad{
+ .quick{
      width: 110px;
      border: black 1px solid ;
      height: 200px;
+     top: 0; left: 0;
+     float: right;
+     display: none;
      
-     position: absolute;
-     z-index: 9999;
+     
+     
      
      
  }
