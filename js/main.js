@@ -17,19 +17,19 @@ $(function(){
         
     });
       
-    //console.log($('.menu').position().left)
-    var q_left = $('.mem_content').position().left+1300;
+    console.log($('.mem_content').position().left)
+    var q_left = $('.mem_content').position().left+1335;
     
     var q_top = $('.mem_content').position().top;
    
     $(".mypage_ad").css({
-        'top':'350px',
+        'top':q_top,
         'left':q_left
     });
     
     $(window).scroll(function(){
-        console.log($(window).scrollTop());
-        var new_top = $(window).scrollTop()+330;
+        
+        var new_top = $(window).scrollTop()+100;
         $(".mypage_ad").stop().animate({
         'top':new_top, 'left':q_left
         
@@ -37,7 +37,7 @@ $(function(){
     })
 
     $('.del_why ').change(function(){
-        console.log($(this).val())
+       
         if($(this).val() == 'mass' ){
             $('.hidden').show();  
         } else{
