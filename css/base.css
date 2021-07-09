@@ -10,7 +10,9 @@
 .wrap{
     width: 1490px;
     margin: 0px auto;
+    min-height: 100%;
    
+   position: relative;
        
     
 }
@@ -62,7 +64,7 @@
 .mem_content2{
     width: 1300px;
     margin: 30px auto;
-    height: 100%;
+    
     
 
 }
